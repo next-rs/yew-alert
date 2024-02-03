@@ -4,10 +4,11 @@
 [![Crates.io Downloads](https://img.shields.io/crates/d/yew-alert)](https://crates.io/crates/yew-alert)
 ![Crates.io License](https://img.shields.io/crates/l/yew-alert)
 ![Rust](https://img.shields.io/badge/rust-stable-orange)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8246c00-9789-4483-bcd4-b500eefa6f6a/deploy-status)](https://yew-alert.netlify.app)
 
 ---
 
-![Demo](https://github.com/next-rs/yew-alert/assets/62179149/07c6eef5-ef37-4364-b80e-328c425eee4c)
+[![Demo](https://github.com/next-rs/yew-alert/assets/62179149/07c6eef5-ef37-4364-b80e-328c425eee4c)](https://yew-alert.netlify.app/)
 
 ---
 
