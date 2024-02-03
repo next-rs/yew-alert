@@ -1,0 +1,29 @@
+[package]
+name = "yew-alert"
+version = "0.1.0"
+description = "⚠️ A simple and flexible alert component for the Yew framework."
+license = "MIT"
+repository = "https://github.com/next-rs/yew-alert"
+homepage = "https://github.com/next-rs/yew-alert"
+documentation = "https://docs.rs/yew-alert/"
+authors = ["Mahmoud Harmouch <oss@wiseai.dev>"]
+edition = "2021"
+exclude = ["/examples"]
+keywords = ["yew", "rust", "alert", "yew-alert"]
+categories = ["web-programming", "no-std"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gloo = "0.11.0"
+web-sys = { version = "0.3.67", features = ["Window"] }
+yew = "0.21.0"
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = "thin"
+strip = "symbols"
+
+[badges]
+maintenance = { status = "actively-developed" }
