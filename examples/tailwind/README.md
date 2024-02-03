@@ -21,6 +21,6 @@
 	```
 1. Uncomment this line:
 
-	TODO
+	https://github.com/next-rs/yew-alert/blob/5314990a08f21b7b92029f0f7169c8025dbf364c/examples/tailwind/index.html#L5
 
 Navigate to http://localhost:3000 to explore the landing page.
