@@ -97,7 +97,7 @@ Incorporating Yew Alert into your application is easy. Follow these steps:
 | Name                 | Type                   | Default Value                     | Description                               |
 | ---                  | ---                    | ---                               | -----                                     |
 | `message`            | `&'static str`         | `""`                              | The message content of the alert.          |
-| `show_alert`         | `UseStateHandle<bool>` | `UseStateHandle::new(false)`      | State to control the visibility of the alert.|
+| `show_alert`         | `UseStateHandle<bool>` | - | State to control the visibility of the alert.|
 | `timeout`            | `u32`                  | `2500`                            | The duration in milliseconds before the alert automatically closes.|
 | `title`              | `&'static str`         | `"Info"`                          | The title of the alert.                    |
 
